@@ -15,4 +15,4 @@ jobs:
           port:  ${{ secrets.PORT }}
           script: |
               ssh-keyscan -H github.com >> ~/.ssh/known_hosts
-              git clone git@github.com:vibhorg16799/workflow.git
+              git clone git@github.com:vibhorg16799/workflow
